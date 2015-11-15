@@ -13,6 +13,9 @@ services:
 
 before_install:
   - npm i -g bower
+  - npm i -g gulp
+  
+script: cd TodoApp && gulp test
 
 notifications:
   webhooks:
