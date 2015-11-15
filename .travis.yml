@@ -12,8 +12,8 @@ services:
   - mongodb
 
 before_install:
-  - npm i -g bower
-  - npm i -g gulp
+  - npm install -g bower
+  - npm install -g gulp
   
 script: cd TodoApp && gulp test
 
