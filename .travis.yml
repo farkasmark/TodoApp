@@ -12,7 +12,6 @@ services:
   - mongodb
 
 before_install:
-  - cd TodoApp
   - npm i -g bower
 
 notifications:
